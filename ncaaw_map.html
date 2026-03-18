@@ -1,0 +1,2345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_658da723602651d1ee537aa17a276a19 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_658da723602651d1ee537aa17a276a19" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_658da723602651d1ee537aa17a276a19 = L.map(
+                "map_658da723602651d1ee537aa17a276a19",
+                {
+                    center: [39.8, -98.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5399513a0c91669640ce6ca1c1c604fb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_5399513a0c91669640ce6ca1c1c604fb.addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+            var marker_b41edd087bdceacfd8482ec563d14986 = L.marker(
+                [41.8084, -72.2518],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_d042a2c39036d4adbff03df507d29244 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/41.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_30b16e602dc5a157131eac61e45d3602 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3ff3fb043a85e4c7821dad82a6d3cdc = $(`<div id="html_e3ff3fb043a85e4c7821dad82a6d3cdc" style="width: 100.0%; height: 100.0%;">Connecticut</div>`)[0];
+                popup_30b16e602dc5a157131eac61e45d3602.setContent(html_e3ff3fb043a85e4c7821dad82a6d3cdc);
+            
+        
+
+        marker_b41edd087bdceacfd8482ec563d14986.bindPopup(popup_30b16e602dc5a157131eac61e45d3602)
+        ;
+
+        
+    
+    
+                marker_b41edd087bdceacfd8482ec563d14986.setIcon(icon_d042a2c39036d4adbff03df507d29244);
+            
+    
+            var marker_bd3e39ec6ec87dcbfd1a81d1f7f34076 = L.marker(
+                [34.0708, -118.4452],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_82dee5896ddc86339faf444c0aa449e4 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/26.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_016522d627776fa41dadd73c29b0e528 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b423a734f9e689167ae3a3e51b664f5a = $(`<div id="html_b423a734f9e689167ae3a3e51b664f5a" style="width: 100.0%; height: 100.0%;">UCLA</div>`)[0];
+                popup_016522d627776fa41dadd73c29b0e528.setContent(html_b423a734f9e689167ae3a3e51b664f5a);
+            
+        
+
+        marker_bd3e39ec6ec87dcbfd1a81d1f7f34076.bindPopup(popup_016522d627776fa41dadd73c29b0e528)
+        ;
+
+        
+    
+    
+                marker_bd3e39ec6ec87dcbfd1a81d1f7f34076.setIcon(icon_82dee5896ddc86339faf444c0aa449e4);
+            
+    
+            var marker_9ab8ebab281d303675b2e6bd313ec49f = L.marker(
+                [33.9988, -81.0368],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_e9faeafae721f724b07a387dace2b351 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2579.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_ba8e36091b888d4bcaf05db55fd72164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93f26061691a6b3bb1aa5d0d4f9555ba = $(`<div id="html_93f26061691a6b3bb1aa5d0d4f9555ba" style="width: 100.0%; height: 100.0%;">South Carolina</div>`)[0];
+                popup_ba8e36091b888d4bcaf05db55fd72164.setContent(html_93f26061691a6b3bb1aa5d0d4f9555ba);
+            
+        
+
+        marker_9ab8ebab281d303675b2e6bd313ec49f.bindPopup(popup_ba8e36091b888d4bcaf05db55fd72164)
+        ;
+
+        
+    
+    
+                marker_9ab8ebab281d303675b2e6bd313ec49f.setIcon(icon_e9faeafae721f724b07a387dace2b351);
+            
+    
+            var marker_c94dcf5c460d28dcf3bce8e2f82455fe = L.marker(
+                [30.287, -97.7365],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_6cb1fbeaf5eda3be4c39c66ed867a59d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/251.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_a4655709dfda09e22729fd374b42b453 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_730c1d09756c13479c1591d860d466ea = $(`<div id="html_730c1d09756c13479c1591d860d466ea" style="width: 100.0%; height: 100.0%;">Texas</div>`)[0];
+                popup_a4655709dfda09e22729fd374b42b453.setContent(html_730c1d09756c13479c1591d860d466ea);
+            
+        
+
+        marker_c94dcf5c460d28dcf3bce8e2f82455fe.bindPopup(popup_a4655709dfda09e22729fd374b42b453)
+        ;
+
+        
+    
+    
+                marker_c94dcf5c460d28dcf3bce8e2f82455fe.setIcon(icon_6cb1fbeaf5eda3be4c39c66ed867a59d);
+            
+    
+            var marker_b99b53f6de7cdc197ad5d683cdc8f4a2 = L.marker(
+                [30.4122, -91.1797],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_3a091cdd987042721d8e520bae754fd2 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/99.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_1bdd3000f8c3d75ac04205ed7f09f3d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a3af8a974b3b13544d5eb42a455fc38 = $(`<div id="html_7a3af8a974b3b13544d5eb42a455fc38" style="width: 100.0%; height: 100.0%;">LSU</div>`)[0];
+                popup_1bdd3000f8c3d75ac04205ed7f09f3d5.setContent(html_7a3af8a974b3b13544d5eb42a455fc38);
+            
+        
+
+        marker_b99b53f6de7cdc197ad5d683cdc8f4a2.bindPopup(popup_1bdd3000f8c3d75ac04205ed7f09f3d5)
+        ;
+
+        
+    
+    
+                marker_b99b53f6de7cdc197ad5d683cdc8f4a2.setIcon(icon_3a091cdd987042721d8e520bae754fd2);
+            
+    
+            var marker_dcd8e8cf33d84aa84466a76985a79b35 = L.marker(
+                [42.2786, -83.7487],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_a521616f6b4bec06cd733c924c523676 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/130.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f1cd219fb7d44d03d3df62eda1bc2117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80b04fc6d895352d0a544601e8ba8e0c = $(`<div id="html_80b04fc6d895352d0a544601e8ba8e0c" style="width: 100.0%; height: 100.0%;">Michigan</div>`)[0];
+                popup_f1cd219fb7d44d03d3df62eda1bc2117.setContent(html_80b04fc6d895352d0a544601e8ba8e0c);
+            
+        
+
+        marker_dcd8e8cf33d84aa84466a76985a79b35.bindPopup(popup_f1cd219fb7d44d03d3df62eda1bc2117)
+        ;
+
+        
+    
+    
+                marker_dcd8e8cf33d84aa84466a76985a79b35.setIcon(icon_a521616f6b4bec06cd733c924c523676);
+            
+    
+            var marker_446ff90ecd085f359f4ac099a4c8febf = L.marker(
+                [36.1439, -86.8027],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_2269e7ebb9410ae972071efc12983f3a = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/238.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_1637bb204a1f9057a4f583ba932e39e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfb898045232f1acc25ce639c585b5bb = $(`<div id="html_bfb898045232f1acc25ce639c585b5bb" style="width: 100.0%; height: 100.0%;">Vanderbilt</div>`)[0];
+                popup_1637bb204a1f9057a4f583ba932e39e8.setContent(html_bfb898045232f1acc25ce639c585b5bb);
+            
+        
+
+        marker_446ff90ecd085f359f4ac099a4c8febf.bindPopup(popup_1637bb204a1f9057a4f583ba932e39e8)
+        ;
+
+        
+    
+    
+                marker_446ff90ecd085f359f4ac099a4c8febf.setIcon(icon_2269e7ebb9410ae972071efc12983f3a);
+            
+    
+            var marker_93257f01be5d0b432e59417ca38cdb04 = L.marker(
+                [36.0001, -78.9407],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_26b885c41931557b443eba411dcb8562 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/150.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_ef956930f33189dc37c7649da335bb4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdb33eb1cae846b93f590e69b07535dd = $(`<div id="html_bdb33eb1cae846b93f590e69b07535dd" style="width: 100.0%; height: 100.0%;">Duke</div>`)[0];
+                popup_ef956930f33189dc37c7649da335bb4d.setContent(html_bdb33eb1cae846b93f590e69b07535dd);
+            
+        
+
+        marker_93257f01be5d0b432e59417ca38cdb04.bindPopup(popup_ef956930f33189dc37c7649da335bb4d)
+        ;
+
+        
+    
+    
+                marker_93257f01be5d0b432e59417ca38cdb04.setIcon(icon_26b885c41931557b443eba411dcb8562);
+            
+    
+            var marker_3a70cf77fccdc36389ab4c60fffabf5e = L.marker(
+                [44.9751, -93.2281],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_1808bbf391ddbd4ff33d2fe296157785 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/135.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_721ce563f8ae4d7ed3b888c213e65958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b921ce3c80f9cbbf435b8be80fbe4b = $(`<div id="html_68b921ce3c80f9cbbf435b8be80fbe4b" style="width: 100.0%; height: 100.0%;">Minnesota</div>`)[0];
+                popup_721ce563f8ae4d7ed3b888c213e65958.setContent(html_68b921ce3c80f9cbbf435b8be80fbe4b);
+            
+        
+
+        marker_3a70cf77fccdc36389ab4c60fffabf5e.bindPopup(popup_721ce563f8ae4d7ed3b888c213e65958)
+        ;
+
+        
+    
+    
+                marker_3a70cf77fccdc36389ab4c60fffabf5e.setIcon(icon_1808bbf391ddbd4ff33d2fe296157785);
+            
+    
+            var marker_17ce8956cbdd82c1699d0bdf5e57e548 = L.marker(
+                [41.6596, -91.5491],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_21d54a6f6f57054386f0dd42df7f5b2b = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2294.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_44c6335cd75f8f94cbf786af4ae3da91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9dba45cc5fe7cd4bf09376fba9bec3b = $(`<div id="html_b9dba45cc5fe7cd4bf09376fba9bec3b" style="width: 100.0%; height: 100.0%;">Iowa</div>`)[0];
+                popup_44c6335cd75f8f94cbf786af4ae3da91.setContent(html_b9dba45cc5fe7cd4bf09376fba9bec3b);
+            
+        
+
+        marker_17ce8956cbdd82c1699d0bdf5e57e548.bindPopup(popup_44c6335cd75f8f94cbf786af4ae3da91)
+        ;
+
+        
+    
+    
+                marker_17ce8956cbdd82c1699d0bdf5e57e548.setIcon(icon_21d54a6f6f57054386f0dd42df7f5b2b);
+            
+    
+            var marker_b06fc934576c085d7170dd2f52653a2f = L.marker(
+                [38.2543, -85.7566],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_e103582d2e001112c3183d8768150255 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/97.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5c6d90a1eaca5c2e761cccd8969347c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3151bfe555c12bf3a169b0be832432c0 = $(`<div id="html_3151bfe555c12bf3a169b0be832432c0" style="width: 100.0%; height: 100.0%;">Louisville</div>`)[0];
+                popup_5c6d90a1eaca5c2e761cccd8969347c5.setContent(html_3151bfe555c12bf3a169b0be832432c0);
+            
+        
+
+        marker_b06fc934576c085d7170dd2f52653a2f.bindPopup(popup_5c6d90a1eaca5c2e761cccd8969347c5)
+        ;
+
+        
+    
+    
+                marker_b06fc934576c085d7170dd2f52653a2f.setIcon(icon_e103582d2e001112c3183d8768150255);
+            
+    
+            var marker_71f645c616891c1e6fcb981c91cee695 = L.marker(
+                [32.7098, -97.37],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_3be8f357995e9c102b5ed2fe699a1c16 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2628.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f4632a313296f2cb35382b4fd41b6f04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42c418d2d8ad453139838c606faf966e = $(`<div id="html_42c418d2d8ad453139838c606faf966e" style="width: 100.0%; height: 100.0%;">TCU</div>`)[0];
+                popup_f4632a313296f2cb35382b4fd41b6f04.setContent(html_42c418d2d8ad453139838c606faf966e);
+            
+        
+
+        marker_71f645c616891c1e6fcb981c91cee695.bindPopup(popup_f4632a313296f2cb35382b4fd41b6f04)
+        ;
+
+        
+    
+    
+                marker_71f645c616891c1e6fcb981c91cee695.setIcon(icon_3be8f357995e9c102b5ed2fe699a1c16);
+            
+    
+            var marker_1440435e341ca334ca83ee61e4eaa265 = L.marker(
+                [35.1929, -97.4521],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_81646f526d9dfd5aa1886cc46a4487ca = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/201.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_123d46389e5da49e1d4052afc9503775 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b27f8a4188d2fae6926cb9ca13d499f9 = $(`<div id="html_b27f8a4188d2fae6926cb9ca13d499f9" style="width: 100.0%; height: 100.0%;">Oklahoma</div>`)[0];
+                popup_123d46389e5da49e1d4052afc9503775.setContent(html_b27f8a4188d2fae6926cb9ca13d499f9);
+            
+        
+
+        marker_1440435e341ca334ca83ee61e4eaa265.bindPopup(popup_123d46389e5da49e1d4052afc9503775)
+        ;
+
+        
+    
+    
+                marker_1440435e341ca334ca83ee61e4eaa265.setIcon(icon_81646f526d9dfd5aa1886cc46a4487ca);
+            
+    
+            var marker_3b2f446dce91c83f09bd246f13d7010b = L.marker(
+                [38.9897, -76.9378],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_36cd0e95555c073b59dd489911856c4b = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/120.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_0246951a70a81824193838aeda1f2d30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8fdd6538f1239108657543186c80f3 = $(`<div id="html_bd8fdd6538f1239108657543186c80f3" style="width: 100.0%; height: 100.0%;">Maryland</div>`)[0];
+                popup_0246951a70a81824193838aeda1f2d30.setContent(html_bd8fdd6538f1239108657543186c80f3);
+            
+        
+
+        marker_3b2f446dce91c83f09bd246f13d7010b.bindPopup(popup_0246951a70a81824193838aeda1f2d30)
+        ;
+
+        
+    
+    
+                marker_3b2f446dce91c83f09bd246f13d7010b.setIcon(icon_36cd0e95555c073b59dd489911856c4b);
+            
+    
+            var marker_521eac02eb01128340e2fc218a4dbdbc = L.marker(
+                [40.0011, -83.0198],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_321ff87ea9f90aa550c035dce9da5b6e = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/194.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_4dd485b381e87f6d794d0296684b5028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98c177e6c73452d99985307b806aea34 = $(`<div id="html_98c177e6c73452d99985307b806aea34" style="width: 100.0%; height: 100.0%;">Ohio State</div>`)[0];
+                popup_4dd485b381e87f6d794d0296684b5028.setContent(html_98c177e6c73452d99985307b806aea34);
+            
+        
+
+        marker_521eac02eb01128340e2fc218a4dbdbc.bindPopup(popup_4dd485b381e87f6d794d0296684b5028)
+        ;
+
+        
+    
+    
+                marker_521eac02eb01128340e2fc218a4dbdbc.setIcon(icon_321ff87ea9f90aa550c035dce9da5b6e);
+            
+    
+            var marker_f1f5611bfe62fad24c39decf8370bd3b = L.marker(
+                [38.0278, -84.4994],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_7b0317ffd32fa3c9818fda546911be71 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/96.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_455774dc72a0a4aa52a101da4dbb8b56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e41aac5c03997ec0ed3384245d203ab = $(`<div id="html_6e41aac5c03997ec0ed3384245d203ab" style="width: 100.0%; height: 100.0%;">Kentucky</div>`)[0];
+                popup_455774dc72a0a4aa52a101da4dbb8b56.setContent(html_6e41aac5c03997ec0ed3384245d203ab);
+            
+        
+
+        marker_f1f5611bfe62fad24c39decf8370bd3b.bindPopup(popup_455774dc72a0a4aa52a101da4dbb8b56)
+        ;
+
+        
+    
+    
+                marker_f1f5611bfe62fad24c39decf8370bd3b.setIcon(icon_7b0317ffd32fa3c9818fda546911be71);
+            
+    
+            var marker_dcf091b0adcabf507d38c4db3e3757a1 = L.marker(
+                [42.727, -84.4894],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_b608352675e7077fdd84107c3af350e0 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/127.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_688b22472791b667c0c2c3354777b5e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d66989bf897fa284b2e77d1305d76dca = $(`<div id="html_d66989bf897fa284b2e77d1305d76dca" style="width: 100.0%; height: 100.0%;">Michigan State</div>`)[0];
+                popup_688b22472791b667c0c2c3354777b5e1.setContent(html_d66989bf897fa284b2e77d1305d76dca);
+            
+        
+
+        marker_dcf091b0adcabf507d38c4db3e3757a1.bindPopup(popup_688b22472791b667c0c2c3354777b5e1)
+        ;
+
+        
+    
+    
+                marker_dcf091b0adcabf507d38c4db3e3757a1.setIcon(icon_b608352675e7077fdd84107c3af350e0);
+            
+    
+            var marker_28a74a13e9664dd1b74b41612a5c1a1b = L.marker(
+                [39.648, -79.9558],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_8893704e4b081de6435daacfb4475fb0 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/277.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f361202a72b398f1823852b992ac10b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4bb38910f064faac595c654b4c9790a9 = $(`<div id="html_4bb38910f064faac595c654b4c9790a9" style="width: 100.0%; height: 100.0%;">West Virginia</div>`)[0];
+                popup_f361202a72b398f1823852b992ac10b3.setContent(html_4bb38910f064faac595c654b4c9790a9);
+            
+        
+
+        marker_28a74a13e9664dd1b74b41612a5c1a1b.bindPopup(popup_f361202a72b398f1823852b992ac10b3)
+        ;
+
+        
+    
+    
+                marker_28a74a13e9664dd1b74b41612a5c1a1b.setIcon(icon_8893704e4b081de6435daacfb4475fb0);
+            
+    
+            var marker_93d8980a7abda1fe82c106ce6be882e5 = L.marker(
+                [35.9049, -79.0469],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_bb6a569d4aa9aab49d1ee93aa65b1643 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/153.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_cb5535203e863b68c31bbb6b59c47538 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ee807c685b16f90c41cec5f076523b2 = $(`<div id="html_3ee807c685b16f90c41cec5f076523b2" style="width: 100.0%; height: 100.0%;">North Carolina</div>`)[0];
+                popup_cb5535203e863b68c31bbb6b59c47538.setContent(html_3ee807c685b16f90c41cec5f076523b2);
+            
+        
+
+        marker_93d8980a7abda1fe82c106ce6be882e5.bindPopup(popup_cb5535203e863b68c31bbb6b59c47538)
+        ;
+
+        
+    
+    
+                marker_93d8980a7abda1fe82c106ce6be882e5.setIcon(icon_bb6a569d4aa9aab49d1ee93aa65b1643);
+            
+    
+            var marker_9595329e6817f3dd551c7f03cef5b645 = L.marker(
+                [34.3615, -89.5376],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_4ae86741662af81fc9123768ac89bebf = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/145.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_ecc13ba9703f1c73f0f7918e05b3fb65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab5b3258d3e14560c7764cf03899c1b8 = $(`<div id="html_ab5b3258d3e14560c7764cf03899c1b8" style="width: 100.0%; height: 100.0%;">Ole Miss</div>`)[0];
+                popup_ecc13ba9703f1c73f0f7918e05b3fb65.setContent(html_ab5b3258d3e14560c7764cf03899c1b8);
+            
+        
+
+        marker_9595329e6817f3dd551c7f03cef5b645.bindPopup(popup_ecc13ba9703f1c73f0f7918e05b3fb65)
+        ;
+
+        
+    
+    
+                marker_9595329e6817f3dd551c7f03cef5b645.setIcon(icon_4ae86741662af81fc9123768ac89bebf);
+            
+    
+            var marker_da686a81c5716e9df8374bae08223a81 = L.marker(
+                [41.701, -86.238],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_09d4edf81c73acf697dd43cd09332807 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/87.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_e3a4db86a1549e409674d6cddbc00d86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_619f03514de2cec0d9c32685251b5028 = $(`<div id="html_619f03514de2cec0d9c32685251b5028" style="width: 100.0%; height: 100.0%;">Notre Dame</div>`)[0];
+                popup_e3a4db86a1549e409674d6cddbc00d86.setContent(html_619f03514de2cec0d9c32685251b5028);
+            
+        
+
+        marker_da686a81c5716e9df8374bae08223a81.bindPopup(popup_e3a4db86a1549e409674d6cddbc00d86)
+        ;
+
+        
+    
+    
+                marker_da686a81c5716e9df8374bae08223a81.setIcon(icon_09d4edf81c73acf697dd43cd09332807);
+            
+    
+            var marker_ce8ea5badc90469bda588bb6b32e3fbb = L.marker(
+                [34.0209, -118.27],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_79f87957fef5c37a18cece09d62c7dce = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/30.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_ab68bd3304f8048c58e0bb43c8ab467d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_718cfcfaaaadef9b9a0f2671dc3f6c14 = $(`<div id="html_718cfcfaaaadef9b9a0f2671dc3f6c14" style="width: 100.0%; height: 100.0%;">USC</div>`)[0];
+                popup_ab68bd3304f8048c58e0bb43c8ab467d.setContent(html_718cfcfaaaadef9b9a0f2671dc3f6c14);
+            
+        
+
+        marker_ce8ea5badc90469bda588bb6b32e3fbb.bindPopup(popup_ab68bd3304f8048c58e0bb43c8ab467d)
+        ;
+
+        
+    
+    
+                marker_ce8ea5badc90469bda588bb6b32e3fbb.setIcon(icon_79f87957fef5c37a18cece09d62c7dce);
+            
+    
+            var marker_98bfe621fe32a402e40c11b3506736d0 = L.marker(
+                [35.955, -83.9257],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_5ebee7bdb6cfe25b334a30a41f154215 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2633.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_4b4e733b4baf0f23644c5fd683b37f8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a4d789842d82c56a166f9de0bec54e2 = $(`<div id="html_5a4d789842d82c56a166f9de0bec54e2" style="width: 100.0%; height: 100.0%;">Tennessee</div>`)[0];
+                popup_4b4e733b4baf0f23644c5fd683b37f8b.setContent(html_5a4d789842d82c56a166f9de0bec54e2);
+            
+        
+
+        marker_98bfe621fe32a402e40c11b3506736d0.bindPopup(popup_4b4e733b4baf0f23644c5fd683b37f8b)
+        ;
+
+        
+    
+    
+                marker_98bfe621fe32a402e40c11b3506736d0.setIcon(icon_5ebee7bdb6cfe25b334a30a41f154215);
+            
+    
+            var marker_eb708cb62b785cfe2dddabf504ea1d6b = L.marker(
+                [44.0521, -123.0684],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_b6c03e0ef6e38a9ab952edf55d013a6d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2483.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_77815b3178b6e9020209c0dbe9405455 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d6dfe46b63366872fe9f22caaa6f2f0 = $(`<div id="html_9d6dfe46b63366872fe9f22caaa6f2f0" style="width: 100.0%; height: 100.0%;">Oregon</div>`)[0];
+                popup_77815b3178b6e9020209c0dbe9405455.setContent(html_9d6dfe46b63366872fe9f22caaa6f2f0);
+            
+        
+
+        marker_eb708cb62b785cfe2dddabf504ea1d6b.bindPopup(popup_77815b3178b6e9020209c0dbe9405455)
+        ;
+
+        
+    
+    
+                marker_eb708cb62b785cfe2dddabf504ea1d6b.setIcon(icon_b6c03e0ef6e38a9ab952edf55d013a6d);
+            
+    
+            var marker_19060192ab457a218b73c806c1dde2ca = L.marker(
+                [47.6546, -122.3016],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_71417956ecfc2f401416e18274f1d373 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/264.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_57ab551b8b2055b1f4b4fec80ede250b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_440a1146d06b677b164d47367f9c528b = $(`<div id="html_440a1146d06b677b164d47367f9c528b" style="width: 100.0%; height: 100.0%;">Washington</div>`)[0];
+                popup_57ab551b8b2055b1f4b4fec80ede250b.setContent(html_440a1146d06b677b164d47367f9c528b);
+            
+        
+
+        marker_19060192ab457a218b73c806c1dde2ca.bindPopup(popup_57ab551b8b2055b1f4b4fec80ede250b)
+        ;
+
+        
+    
+    
+                marker_19060192ab457a218b73c806c1dde2ca.setIcon(icon_71417956ecfc2f401416e18274f1d373);
+            
+    
+            var marker_b7484af2cd6d05817c7e3ace8178e261 = L.marker(
+                [35.7873, -78.687],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_c9578b5b189cdd68f74e738c668347b9 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/152.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5f1f900bf5b7c9bfc8f11b75be66ce60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_268f17c79b69df0542247a03dabd9d76 = $(`<div id="html_268f17c79b69df0542247a03dabd9d76" style="width: 100.0%; height: 100.0%;">North Carolina State</div>`)[0];
+                popup_5f1f900bf5b7c9bfc8f11b75be66ce60.setContent(html_268f17c79b69df0542247a03dabd9d76);
+            
+        
+
+        marker_b7484af2cd6d05817c7e3ace8178e261.bindPopup(popup_5f1f900bf5b7c9bfc8f11b75be66ce60)
+        ;
+
+        
+    
+    
+                marker_b7484af2cd6d05817c7e3ace8178e261.setIcon(icon_c9578b5b189cdd68f74e738c668347b9);
+            
+    
+            var marker_2fdae70af5d13fea303ef1d4d45652cc = L.marker(
+                [33.2093, -87.5511],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_c64bf0a3c38efcb330c25afc99a7b90a = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/333.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_2e3445693b0b5a95a9f545f798531cd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10d7a06ea76bce3bb2e7779bdfd07930 = $(`<div id="html_10d7a06ea76bce3bb2e7779bdfd07930" style="width: 100.0%; height: 100.0%;">Alabama</div>`)[0];
+                popup_2e3445693b0b5a95a9f545f798531cd7.setContent(html_10d7a06ea76bce3bb2e7779bdfd07930);
+            
+        
+
+        marker_2fdae70af5d13fea303ef1d4d45652cc.bindPopup(popup_2e3445693b0b5a95a9f545f798531cd7)
+        ;
+
+        
+    
+    
+                marker_2fdae70af5d13fea303ef1d4d45652cc.setIcon(icon_c64bf0a3c38efcb330c25afc99a7b90a);
+            
+    
+            var marker_b783bbb6ffe2b5c1a8454b4160efe6a2 = L.marker(
+                [40.8035, -96.7084],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_41f9ba1dc0420a215e27a1b5aa4e1d09 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/158.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_531de71ceb79551114a68ea9def09b08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a8cabb6b8a529b1656072dbbc53a4fd = $(`<div id="html_5a8cabb6b8a529b1656072dbbc53a4fd" style="width: 100.0%; height: 100.0%;">Nebraska</div>`)[0];
+                popup_531de71ceb79551114a68ea9def09b08.setContent(html_5a8cabb6b8a529b1656072dbbc53a4fd);
+            
+        
+
+        marker_b783bbb6ffe2b5c1a8454b4160efe6a2.bindPopup(popup_531de71ceb79551114a68ea9def09b08)
+        ;
+
+        
+    
+    
+                marker_b783bbb6ffe2b5c1a8454b4160efe6a2.setIcon(icon_41f9ba1dc0420a215e27a1b5aa4e1d09);
+            
+    
+            var marker_2e935348193c8724919a1592c00515a3 = L.marker(
+                [36.1258, -97.0672],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_46b125e767c539474554d193e7b1d1c3 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/197.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_717a5d7fd68f490aefec1763eb231297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bdb3587dc14d6bb456bceeb1c807e36 = $(`<div id="html_5bdb3587dc14d6bb456bceeb1c807e36" style="width: 100.0%; height: 100.0%;">Oklahoma State</div>`)[0];
+                popup_717a5d7fd68f490aefec1763eb231297.setContent(html_5bdb3587dc14d6bb456bceeb1c807e36);
+            
+        
+
+        marker_2e935348193c8724919a1592c00515a3.bindPopup(popup_717a5d7fd68f490aefec1763eb231297)
+        ;
+
+        
+    
+    
+                marker_2e935348193c8724919a1592c00515a3.setIcon(icon_46b125e767c539474554d193e7b1d1c3);
+            
+    
+            var marker_6b9bc6588223ab6f1d65c181cd9b010e = L.marker(
+                [40.098, -88.2722],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_4cc1454bcd7c04bdb5a735030f0e2ba5 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/356.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_df8cdecd7ad28469f31791ce519aabbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ecb4aea7d530039b8d6e35dca28c74a = $(`<div id="html_3ecb4aea7d530039b8d6e35dca28c74a" style="width: 100.0%; height: 100.0%;">Illinois</div>`)[0];
+                popup_df8cdecd7ad28469f31791ce519aabbd.setContent(html_3ecb4aea7d530039b8d6e35dca28c74a);
+            
+        
+
+        marker_6b9bc6588223ab6f1d65c181cd9b010e.bindPopup(popup_df8cdecd7ad28469f31791ce519aabbd)
+        ;
+
+        
+    
+    
+                marker_6b9bc6588223ab6f1d65c181cd9b010e.setIcon(icon_4cc1454bcd7c04bdb5a735030f0e2ba5);
+            
+    
+            var marker_6fe4ae6ca5a6dbe4e4e36165c526f84f = L.marker(
+                [33.5887, -101.8841],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_490fc937a08232583c0e1e3ad6363b3c = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2641.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_3740fbed2c5515c416c9e103076ed9d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dfcabe75a81ee7fb727e9c901950c2a = $(`<div id="html_6dfcabe75a81ee7fb727e9c901950c2a" style="width: 100.0%; height: 100.0%;">Texas Tech</div>`)[0];
+                popup_3740fbed2c5515c416c9e103076ed9d8.setContent(html_6dfcabe75a81ee7fb727e9c901950c2a);
+            
+        
+
+        marker_6fe4ae6ca5a6dbe4e4e36165c526f84f.bindPopup(popup_3740fbed2c5515c416c9e103076ed9d8)
+        ;
+
+        
+    
+    
+                marker_6fe4ae6ca5a6dbe4e4e36165c526f84f.setIcon(icon_490fc937a08232583c0e1e3ad6363b3c);
+            
+    
+            var marker_045945d58d0e33e81c0d3b8398077e1e = L.marker(
+                [31.5491, -97.1151],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_ea3e46223b8fee23748247c57c39bd9c = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/239.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_fc7a591535164f72875f0f59e7b0e8aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_224fd38f300e8fe82ecf0ca5a0709e79 = $(`<div id="html_224fd38f300e8fe82ecf0ca5a0709e79" style="width: 100.0%; height: 100.0%;">Baylor</div>`)[0];
+                popup_fc7a591535164f72875f0f59e7b0e8aa.setContent(html_224fd38f300e8fe82ecf0ca5a0709e79);
+            
+        
+
+        marker_045945d58d0e33e81c0d3b8398077e1e.bindPopup(popup_fc7a591535164f72875f0f59e7b0e8aa)
+        ;
+
+        
+    
+    
+                marker_045945d58d0e33e81c0d3b8398077e1e.setIcon(icon_ea3e46223b8fee23748247c57c39bd9c);
+            
+    
+            var marker_abd7414305ed7b7fbf8d094ee7a26984 = L.marker(
+                [42.0267, -93.6465],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_8d4a0dc73a304ec731d3b4a3847def20 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/66.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_3fef5859f662733bf52929c7fc34bcc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9dc6a8fbc305b267104e480c7845c47 = $(`<div id="html_e9dc6a8fbc305b267104e480c7845c47" style="width: 100.0%; height: 100.0%;">Iowa State</div>`)[0];
+                popup_3fef5859f662733bf52929c7fc34bcc4.setContent(html_e9dc6a8fbc305b267104e480c7845c47);
+            
+        
+
+        marker_abd7414305ed7b7fbf8d094ee7a26984.bindPopup(popup_3fef5859f662733bf52929c7fc34bcc4)
+        ;
+
+        
+    
+    
+                marker_abd7414305ed7b7fbf8d094ee7a26984.setIcon(icon_8d4a0dc73a304ec731d3b4a3847def20);
+            
+    
+            var marker_5f2e2cb96c945c74824513026d8e03cf = L.marker(
+                [33.9452, -83.3768],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_b2b82be807ebfbce785f54abe6fd001e = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/61.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f344ff5e8ded42ef07d03a8810d52739 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bac97e6ff19ca41b290aac687cd8c90b = $(`<div id="html_bac97e6ff19ca41b290aac687cd8c90b" style="width: 100.0%; height: 100.0%;">Georgia</div>`)[0];
+                popup_f344ff5e8ded42ef07d03a8810d52739.setContent(html_bac97e6ff19ca41b290aac687cd8c90b);
+            
+        
+
+        marker_5f2e2cb96c945c74824513026d8e03cf.bindPopup(popup_f344ff5e8ded42ef07d03a8810d52739)
+        ;
+
+        
+    
+    
+                marker_5f2e2cb96c945c74824513026d8e03cf.setIcon(icon_b2b82be807ebfbce785f54abe6fd001e);
+            
+    
+            var marker_1f2a1ce4a026ab9f226bb30f7b0b8fb9 = L.marker(
+                [40.0352, -75.3452],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_4c082f16a81475f0ca7d3e566b62238e = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/222.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5495b081b5b63eff4b7b45d0332d5ebb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfe51f72958d53e31bab12a809d2fa7b = $(`<div id="html_bfe51f72958d53e31bab12a809d2fa7b" style="width: 100.0%; height: 100.0%;">Villanova</div>`)[0];
+                popup_5495b081b5b63eff4b7b45d0332d5ebb.setContent(html_bfe51f72958d53e31bab12a809d2fa7b);
+            
+        
+
+        marker_1f2a1ce4a026ab9f226bb30f7b0b8fb9.bindPopup(popup_5495b081b5b63eff4b7b45d0332d5ebb)
+        ;
+
+        
+    
+    
+                marker_1f2a1ce4a026ab9f226bb30f7b0b8fb9.setIcon(icon_4c082f16a81475f0ca7d3e566b62238e);
+            
+    
+            var marker_4c1fdba86aafa80dda08a89ae951d939 = L.marker(
+                [38.0356, -78.507],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_cdb8cc0f6458c341dce5e74778b05a17 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/258.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_e9ec021ec40810e46eaf4f37cb670416 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2f2a0bd575303b105d6c31162b1a0f5 = $(`<div id="html_f2f2a0bd575303b105d6c31162b1a0f5" style="width: 100.0%; height: 100.0%;">Virginia</div>`)[0];
+                popup_e9ec021ec40810e46eaf4f37cb670416.setContent(html_f2f2a0bd575303b105d6c31162b1a0f5);
+            
+        
+
+        marker_4c1fdba86aafa80dda08a89ae951d939.bindPopup(popup_e9ec021ec40810e46eaf4f37cb670416)
+        ;
+
+        
+    
+    
+                marker_4c1fdba86aafa80dda08a89ae951d939.setIcon(icon_cdb8cc0f6458c341dce5e74778b05a17);
+            
+    
+            var marker_7dc0a2d342f3f06b5a57d725efc0f4c9 = L.marker(
+                [37.5701, -77.5425],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_31f5aff88afea706aeb53f41687be505 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/257.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_a595497b8eda064d2768f3b34e573a1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e3ea6bdfcf2e838947328e6ae6ecb6c = $(`<div id="html_4e3ea6bdfcf2e838947328e6ae6ecb6c" style="width: 100.0%; height: 100.0%;">Richmond</div>`)[0];
+                popup_a595497b8eda064d2768f3b34e573a1e.setContent(html_4e3ea6bdfcf2e838947328e6ae6ecb6c);
+            
+        
+
+        marker_7dc0a2d342f3f06b5a57d725efc0f4c9.bindPopup(popup_a595497b8eda064d2768f3b34e573a1e)
+        ;
+
+        
+    
+    
+                marker_7dc0a2d342f3f06b5a57d725efc0f4c9.setIcon(icon_31f5aff88afea706aeb53f41687be505);
+            
+    
+            var marker_dc8709a1d2f2ea5e9bb8f64202ce4dc8 = L.marker(
+                [40.345, -74.655],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_647000b35d7656bd06a634ac2b16dddc = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/163.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5c55f8528eb8498f04d60529302841a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59ced51cd54815e138c6db169e8b5cdb = $(`<div id="html_59ced51cd54815e138c6db169e8b5cdb" style="width: 100.0%; height: 100.0%;">Princeton</div>`)[0];
+                popup_5c55f8528eb8498f04d60529302841a4.setContent(html_59ced51cd54815e138c6db169e8b5cdb);
+            
+        
+
+        marker_dc8709a1d2f2ea5e9bb8f64202ce4dc8.bindPopup(popup_5c55f8528eb8498f04d60529302841a4)
+        ;
+
+        
+    
+    
+                marker_dc8709a1d2f2ea5e9bb8f64202ce4dc8.setIcon(icon_647000b35d7656bd06a634ac2b16dddc);
+            
+    
+            var marker_7e2489d7f8068689d5322a11d8a62e44 = L.marker(
+                [43.0361, -76.1363],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_cfee8b98c15263269501f0556da4467e = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/183.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_117c04085ca2ee431d6f3a2e01aa6ff5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_316cb9286385166ffcb69f84877e6ad7 = $(`<div id="html_316cb9286385166ffcb69f84877e6ad7" style="width: 100.0%; height: 100.0%;">Syracuse</div>`)[0];
+                popup_117c04085ca2ee431d6f3a2e01aa6ff5.setContent(html_316cb9286385166ffcb69f84877e6ad7);
+            
+        
+
+        marker_7e2489d7f8068689d5322a11d8a62e44.bindPopup(popup_117c04085ca2ee431d6f3a2e01aa6ff5)
+        ;
+
+        
+    
+    
+                marker_7e2489d7f8068689d5322a11d8a62e44.setIcon(icon_cfee8b98c15263269501f0556da4467e);
+            
+    
+            var marker_3f9fbcc025d81fa8d0f3710a912c6beb = L.marker(
+                [37.2244, -80.4246],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_25e04c57d52c121cddfa48c74f1bbd5e = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/259.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_0cf9ff0f016badf85cf5003c6f8d6561 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_43d0d6b19b63c3a7cf08c49de7cfd0de = $(`<div id="html_43d0d6b19b63c3a7cf08c49de7cfd0de" style="width: 100.0%; height: 100.0%;">Virginia Tech</div>`)[0];
+                popup_0cf9ff0f016badf85cf5003c6f8d6561.setContent(html_43d0d6b19b63c3a7cf08c49de7cfd0de);
+            
+        
+
+        marker_3f9fbcc025d81fa8d0f3710a912c6beb.bindPopup(popup_0cf9ff0f016badf85cf5003c6f8d6561)
+        ;
+
+        
+    
+    
+                marker_3f9fbcc025d81fa8d0f3710a912c6beb.setIcon(icon_25e04c57d52c121cddfa48c74f1bbd5e);
+            
+    
+            var marker_7d4b70be102e6f07b0ab73d9351a9cbe = L.marker(
+                [34.6776, -82.8374],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_5302c483a6f995f50cd244941807d050 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/228.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_e640916f124c5b86c8512bf9b3922fba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0e6933f0843bcc3bea46739eeaabf2e = $(`<div id="html_d0e6933f0843bcc3bea46739eeaabf2e" style="width: 100.0%; height: 100.0%;">Clemson</div>`)[0];
+                popup_e640916f124c5b86c8512bf9b3922fba.setContent(html_d0e6933f0843bcc3bea46739eeaabf2e);
+            
+        
+
+        marker_7d4b70be102e6f07b0ab73d9351a9cbe.bindPopup(popup_e640916f124c5b86c8512bf9b3922fba)
+        ;
+
+        
+    
+    
+                marker_7d4b70be102e6f07b0ab73d9351a9cbe.setIcon(icon_5302c483a6f995f50cd244941807d050);
+            
+    
+            var marker_0834badc6dcb561cfbe9b8e74e9e2f02 = L.marker(
+                [44.3116, -96.7984],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_a8c86e4c0e4a5853596ef9c6065be383 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2571.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_0f17f160b11aa24d4611aad558a4003e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40e13fa7ca15907d9d36cab9effae452 = $(`<div id="html_40e13fa7ca15907d9d36cab9effae452" style="width: 100.0%; height: 100.0%;">South Dakota State</div>`)[0];
+                popup_0f17f160b11aa24d4611aad558a4003e.setContent(html_40e13fa7ca15907d9d36cab9effae452);
+            
+        
+
+        marker_0834badc6dcb561cfbe9b8e74e9e2f02.bindPopup(popup_0f17f160b11aa24d4611aad558a4003e)
+        ;
+
+        
+    
+    
+                marker_0834badc6dcb561cfbe9b8e74e9e2f02.setIcon(icon_a8c86e4c0e4a5853596ef9c6065be383);
+            
+    
+            var marker_ebc1173ee815255be23bed08f170f6c1 = L.marker(
+                [38.4356, -78.8753],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_f8738606d1f4f023d5cbda3f29b4a8d6 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/256.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_df778ca3fde8f2cfce402f0d8520fbdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd3dbc2eeab2cd77337755b0f6873e7e = $(`<div id="html_cd3dbc2eeab2cd77337755b0f6873e7e" style="width: 100.0%; height: 100.0%;">James Madison</div>`)[0];
+                popup_df778ca3fde8f2cfce402f0d8520fbdf.setContent(html_cd3dbc2eeab2cd77337755b0f6873e7e);
+            
+        
+
+        marker_ebc1173ee815255be23bed08f170f6c1.bindPopup(popup_df778ca3fde8f2cfce402f0d8520fbdf)
+        ;
+
+        
+    
+    
+                marker_ebc1173ee815255be23bed08f170f6c1.setIcon(icon_f8738606d1f4f023d5cbda3f29b4a8d6);
+            
+    
+            var marker_f1ae2eb5f2c0b15cb6b10a015caf36f6 = L.marker(
+                [40.0076, -105.2659],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_945f7a5ec7c781c6acfd606da792967d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/38.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_47fb1ccb2606ccaf41cb6b0c0ebc8fbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d182ace54cc68fda89277d6f6dedaa6 = $(`<div id="html_6d182ace54cc68fda89277d6f6dedaa6" style="width: 100.0%; height: 100.0%;">Colorado</div>`)[0];
+                popup_47fb1ccb2606ccaf41cb6b0c0ebc8fbe.setContent(html_6d182ace54cc68fda89277d6f6dedaa6);
+            
+        
+
+        marker_f1ae2eb5f2c0b15cb6b10a015caf36f6.bindPopup(popup_47fb1ccb2606ccaf41cb6b0c0ebc8fbe)
+        ;
+
+        
+    
+    
+                marker_f1ae2eb5f2c0b15cb6b10a015caf36f6.setIcon(icon_945f7a5ec7c781c6acfd606da792967d);
+            
+    
+            var marker_98ba59b3f6f5831e2b5448f580b128c2 = L.marker(
+                [41.4807, -71.53],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_e3ef04964877adba0fa98c3ff8f63fd2 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/227.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_373b2c56650369bfcb6c5cfa25510e31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f36f824cf51640f4db919875bf7961f7 = $(`<div id="html_f36f824cf51640f4db919875bf7961f7" style="width: 100.0%; height: 100.0%;">Rhode Island</div>`)[0];
+                popup_373b2c56650369bfcb6c5cfa25510e31.setContent(html_f36f824cf51640f4db919875bf7961f7);
+            
+        
+
+        marker_98ba59b3f6f5831e2b5448f580b128c2.bindPopup(popup_373b2c56650369bfcb6c5cfa25510e31)
+        ;
+
+        
+    
+    
+                marker_98ba59b3f6f5831e2b5448f580b128c2.setIcon(icon_e3ef04964877adba0fa98c3ff8f63fd2);
+            
+    
+            var marker_cce7e0c79f00bbcbe7ce834c84db62b7 = L.marker(
+                [33.4256, -111.9327],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_b43da0a3238f1ffbfcea9e09060b5f82 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/9.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_4c1fd76a5c73c47866c23166a8271ffe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_027920427efaba04badb717e7693a351 = $(`<div id="html_027920427efaba04badb717e7693a351" style="width: 100.0%; height: 100.0%;">Arizona State</div>`)[0];
+                popup_4c1fd76a5c73c47866c23166a8271ffe.setContent(html_027920427efaba04badb717e7693a351);
+            
+        
+
+        marker_cce7e0c79f00bbcbe7ce834c84db62b7.bindPopup(popup_4c1fd76a5c73c47866c23166a8271ffe)
+        ;
+
+        
+    
+    
+                marker_cce7e0c79f00bbcbe7ce834c84db62b7.setIcon(icon_b43da0a3238f1ffbfcea9e09060b5f82);
+            
+    
+            var marker_9a3ac71cca102e716875b50ca3a51fdc = L.marker(
+                [41.1548, -73.2607],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_2bf85180e31297e73764d535269071e6 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2217.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f1e1e397523f9843afbf3ef9d8c18508 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51a152f9880cacf86a3bbc5feeeae67b = $(`<div id="html_51a152f9880cacf86a3bbc5feeeae67b" style="width: 100.0%; height: 100.0%;">Fairfield</div>`)[0];
+                popup_f1e1e397523f9843afbf3ef9d8c18508.setContent(html_51a152f9880cacf86a3bbc5feeeae67b);
+            
+        
+
+        marker_9a3ac71cca102e716875b50ca3a51fdc.bindPopup(popup_f1e1e397523f9843afbf3ef9d8c18508)
+        ;
+
+        
+    
+    
+                marker_9a3ac71cca102e716875b50ca3a51fdc.setIcon(icon_2bf85180e31297e73764d535269071e6);
+            
+    
+            var marker_fea34e9eff3d4f280de13c819da92c87 = L.marker(
+                [47.6673, -117.4025],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_0ca224f10d644ef7a546dbd449463188 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2250.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_bcfe228227d1ee9b8e4816abd0079fff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71873dbf54fd79d405f0fda4128545d3 = $(`<div id="html_71873dbf54fd79d405f0fda4128545d3" style="width: 100.0%; height: 100.0%;">Gonzaga</div>`)[0];
+                popup_bcfe228227d1ee9b8e4816abd0079fff.setContent(html_71873dbf54fd79d405f0fda4128545d3);
+            
+        
+
+        marker_fea34e9eff3d4f280de13c819da92c87.bindPopup(popup_bcfe228227d1ee9b8e4816abd0079fff)
+        ;
+
+        
+    
+    
+                marker_fea34e9eff3d4f280de13c819da92c87.setIcon(icon_0ca224f10d644ef7a546dbd449463188);
+            
+    
+            var marker_87b0962ec3397d8dfb551902a8f4ca18 = L.marker(
+                [40.5759, -105.0853],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_3a2e093f1aafdfb8076ff92d590fff42 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/36.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_61292f3e0070f4910113a2fa007055ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39cca6ff532c8ed8b99207772a3487f9 = $(`<div id="html_39cca6ff532c8ed8b99207772a3487f9" style="width: 100.0%; height: 100.0%;">Colorado State</div>`)[0];
+                popup_61292f3e0070f4910113a2fa007055ae.setContent(html_39cca6ff532c8ed8b99207772a3487f9);
+            
+        
+
+        marker_87b0962ec3397d8dfb551902a8f4ca18.bindPopup(popup_61292f3e0070f4910113a2fa007055ae)
+        ;
+
+        
+    
+    
+                marker_87b0962ec3397d8dfb551902a8f4ca18.setIcon(icon_3a2e093f1aafdfb8076ff92d590fff42);
+            
+    
+            var marker_783ccaf3c84aef6ce1fbae0c34005c69 = L.marker(
+                [39.5112, -84.7346],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_0c11b3df39fef873ba7d79d213d1ff0d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/193.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_e6b974b0a637982e7a7d2cbe2ab1d81a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8156bcc60b380b08f19954cfd6bd2db8 = $(`<div id="html_8156bcc60b380b08f19954cfd6bd2db8" style="width: 100.0%; height: 100.0%;">Miami (OH)</div>`)[0];
+                popup_e6b974b0a637982e7a7d2cbe2ab1d81a.setContent(html_8156bcc60b380b08f19954cfd6bd2db8);
+            
+        
+
+        marker_783ccaf3c84aef6ce1fbae0c34005c69.bindPopup(popup_e6b974b0a637982e7a7d2cbe2ab1d81a)
+        ;
+
+        
+    
+    
+                marker_783ccaf3c84aef6ce1fbae0c34005c69.setIcon(icon_0c11b3df39fef873ba7d79d213d1ff0d);
+            
+    
+            var marker_2da9228461e2f7e60ffee0a217d1b70f = L.marker(
+                [44.4759, -73.1965],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_0f1b7f5f725760093ae044f541f44d26 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/261.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5a463d73e4b5c5f2fc7260f517c2c4e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01785ec1ebd0bff0558b1fd4df280ced = $(`<div id="html_01785ec1ebd0bff0558b1fd4df280ced" style="width: 100.0%; height: 100.0%;">Vermont</div>`)[0];
+                popup_5a463d73e4b5c5f2fc7260f517c2c4e3.setContent(html_01785ec1ebd0bff0558b1fd4df280ced);
+            
+        
+
+        marker_2da9228461e2f7e60ffee0a217d1b70f.bindPopup(popup_5a463d73e4b5c5f2fc7260f517c2c4e3)
+        ;
+
+        
+    
+    
+                marker_2da9228461e2f7e60ffee0a217d1b70f.setIcon(icon_0f1b7f5f725760093ae044f541f44d26);
+            
+    
+            var marker_bf5a781515fdd67b3c23d4c492c5b9ff = L.marker(
+                [36.6177, -88.3206],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_38c1f29f007d1c967f5dfc9b2991d431 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/93.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_462d0ff618efd107dc959811bdaecefa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2dbc8ea98e5e37912179d0f8ac284f9 = $(`<div id="html_d2dbc8ea98e5e37912179d0f8ac284f9" style="width: 100.0%; height: 100.0%;">Murray State</div>`)[0];
+                popup_462d0ff618efd107dc959811bdaecefa.setContent(html_d2dbc8ea98e5e37912179d0f8ac284f9);
+            
+        
+
+        marker_bf5a781515fdd67b3c23d4c492c5b9ff.bindPopup(popup_462d0ff618efd107dc959811bdaecefa)
+        ;
+
+        
+    
+    
+                marker_bf5a781515fdd67b3c23d4c492c5b9ff.setIcon(icon_38c1f29f007d1c967f5dfc9b2991d431);
+            
+    
+            var marker_8e9479f4b695d8f1c91b2c10bfcb1fd3 = L.marker(
+                [40.4614, -90.6682],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_0d785453ffeb0c5c7e83c32e4f2db4e7 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2710.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_05cbf036082b4f4c1f754c1b67ac2359 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa13f3a9bd500715aaca691af3e625a = $(`<div id="html_aaa13f3a9bd500715aaca691af3e625a" style="width: 100.0%; height: 100.0%;">Western Illinois</div>`)[0];
+                popup_05cbf036082b4f4c1f754c1b67ac2359.setContent(html_aaa13f3a9bd500715aaca691af3e625a);
+            
+        
+
+        marker_8e9479f4b695d8f1c91b2c10bfcb1fd3.bindPopup(popup_05cbf036082b4f4c1f754c1b67ac2359)
+        ;
+
+        
+    
+    
+                marker_8e9479f4b695d8f1c91b2c10bfcb1fd3.setIcon(icon_0d785453ffeb0c5c7e83c32e4f2db4e7);
+            
+    
+            var marker_98967d18db38760f7e75cc379d0d04f5 = L.marker(
+                [44.5193, -87.9956],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_dac8d9f1e3e6c88802ac5043456424fd = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2739.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_1964f44da0fc31e7926305f270d72c85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4273529084af21d6580999f1baeee787 = $(`<div id="html_4273529084af21d6580999f1baeee787" style="width: 100.0%; height: 100.0%;">Green Bay</div>`)[0];
+                popup_1964f44da0fc31e7926305f270d72c85.setContent(html_4273529084af21d6580999f1baeee787);
+            
+        
+
+        marker_98967d18db38760f7e75cc379d0d04f5.bindPopup(popup_1964f44da0fc31e7926305f270d72c85)
+        ;
+
+        
+    
+    
+                marker_98967d18db38760f7e75cc379d0d04f5.setIcon(icon_dac8d9f1e3e6c88802ac5043456424fd);
+            
+    
+            var marker_87ea88127a3d2d30c28985362e614f67 = L.marker(
+                [46.7254, -117.0097],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_47cff0e525c07a0acc64009d634d2672 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/70.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5da7afd532f1b27c2ab1b38cd142f67e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c332d3b9419cbbd2915b204efeb38b61 = $(`<div id="html_c332d3b9419cbbd2915b204efeb38b61" style="width: 100.0%; height: 100.0%;">Idaho</div>`)[0];
+                popup_5da7afd532f1b27c2ab1b38cd142f67e.setContent(html_c332d3b9419cbbd2915b204efeb38b61);
+            
+        
+
+        marker_87ea88127a3d2d30c28985362e614f67.bindPopup(popup_5da7afd532f1b27c2ab1b38cd142f67e)
+        ;
+
+        
+    
+    
+                marker_87ea88127a3d2d30c28985362e614f67.setIcon(icon_47cff0e525c07a0acc64009d634d2672);
+            
+    
+            var marker_ddc9b081a1ec047b4d9637726df60e7d = L.marker(
+                [32.7765, -79.9371],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_b875518a8fc2f081be774d418c96255c = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/232.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_71cee10e40b727c88f9973f6845cd170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f529949233011db24f104f50e64effe = $(`<div id="html_7f529949233011db24f104f50e64effe" style="width: 100.0%; height: 100.0%;">Charleston</div>`)[0];
+                popup_71cee10e40b727c88f9973f6845cd170.setContent(html_7f529949233011db24f104f50e64effe);
+            
+        
+
+        marker_ddc9b081a1ec047b4d9637726df60e7d.bindPopup(popup_71cee10e40b727c88f9973f6845cd170)
+        ;
+
+        
+    
+    
+                marker_ddc9b081a1ec047b4d9637726df60e7d.setIcon(icon_b875518a8fc2f081be774d418c96255c);
+            
+    
+            var marker_1e6619c48ae531b6cabccb6c894bbded = L.marker(
+                [32.8779, -117.2363],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_597369ec494c8c504d944ee914052308 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/28.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_7437dfb7c50feea86ff9804c0564a1a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdd57c7fdba32569ee7b965fdafae8cb = $(`<div id="html_fdd57c7fdba32569ee7b965fdafae8cb" style="width: 100.0%; height: 100.0%;">UC San Diego</div>`)[0];
+                popup_7437dfb7c50feea86ff9804c0564a1a1.setContent(html_fdd57c7fdba32569ee7b965fdafae8cb);
+            
+        
+
+        marker_1e6619c48ae531b6cabccb6c894bbded.bindPopup(popup_7437dfb7c50feea86ff9804c0564a1a1)
+        ;
+
+        
+    
+    
+                marker_1e6619c48ae531b6cabccb6c894bbded.setIcon(icon_597369ec494c8c504d944ee914052308);
+            
+    
+            var marker_70115aa3dbbc9939b967759aa11e4885 = L.marker(
+                [29.58, -98.6136],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_a02d777220f71482e165951ed05f912d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2636.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_7c153f62ef70cc441130802da558e70a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f4a8f64c99310b79e6c32702b3285de = $(`<div id="html_4f4a8f64c99310b79e6c32702b3285de" style="width: 100.0%; height: 100.0%;">UTSA</div>`)[0];
+                popup_7c153f62ef70cc441130802da558e70a.setContent(html_4f4a8f64c99310b79e6c32702b3285de);
+            
+        
+
+        marker_70115aa3dbbc9939b967759aa11e4885.bindPopup(popup_7c153f62ef70cc441130802da558e70a)
+        ;
+
+        
+    
+    
+                marker_70115aa3dbbc9939b967759aa11e4885.setIcon(icon_a02d777220f71482e165951ed05f912d);
+            
+    
+            var marker_a0a095686dce03987d8225a6c19305a0 = L.marker(
+                [37.2153, -93.2981],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_6fd92b72bfed0c46702e95e58e576cfe = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2623.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_e70019dad8739d167ba9fe2092c35229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77e936e5b311f7743515a45143430149 = $(`<div id="html_77e936e5b311f7743515a45143430149" style="width: 100.0%; height: 100.0%;">Missouri State</div>`)[0];
+                popup_e70019dad8739d167ba9fe2092c35229.setContent(html_77e936e5b311f7743515a45143430149);
+            
+        
+
+        marker_a0a095686dce03987d8225a6c19305a0.bindPopup(popup_e70019dad8739d167ba9fe2092c35229)
+        ;
+
+        
+    
+    
+                marker_a0a095686dce03987d8225a6c19305a0.setIcon(icon_6fd92b72bfed0c46702e95e58e576cfe);
+            
+    
+            var marker_b0131b23307a2eb15efe30c6f9844cf5 = L.marker(
+                [33.9381, -117.4351],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_2d8e808b5a6bf6c2f5b1e9914d26596d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2856.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_f81bf1fb8256cd21e5644860718333f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ec9adf033f7fbf373153a7960b392b8 = $(`<div id="html_8ec9adf033f7fbf373153a7960b392b8" style="width: 100.0%; height: 100.0%;">California Baptist</div>`)[0];
+                popup_f81bf1fb8256cd21e5644860718333f4.setContent(html_8ec9adf033f7fbf373153a7960b392b8);
+            
+        
+
+        marker_b0131b23307a2eb15efe30c6f9844cf5.bindPopup(popup_f81bf1fb8256cd21e5644860718333f4)
+        ;
+
+        
+    
+    
+                marker_b0131b23307a2eb15efe30c6f9844cf5.setIcon(icon_2d8e808b5a6bf6c2f5b1e9914d26596d);
+            
+    
+            var marker_0f8dd49cb8c058d541be4dbcaf5dc131 = L.marker(
+                [40.8893, -74.0279],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_ebf5f56a4b69004dca00530a1100530d = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/161.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_2cb729356b2b9f5bf5e57e7113f2cb05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6dec66dac7fc9236fe8b70ee3cee3f42 = $(`<div id="html_6dec66dac7fc9236fe8b70ee3cee3f42" style="width: 100.0%; height: 100.0%;">Fairleigh Dickinson</div>`)[0];
+                popup_2cb729356b2b9f5bf5e57e7113f2cb05.setContent(html_6dec66dac7fc9236fe8b70ee3cee3f42);
+            
+        
+
+        marker_0f8dd49cb8c058d541be4dbcaf5dc131.bindPopup(popup_2cb729356b2b9f5bf5e57e7113f2cb05)
+        ;
+
+        
+    
+    
+                marker_0f8dd49cb8c058d541be4dbcaf5dc131.setIcon(icon_ebf5f56a4b69004dca00530a1100530d);
+            
+    
+            var marker_bfcb15f5873a069bca0342ae77f77fa4 = L.marker(
+                [30.3622, -81.591],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_7d801ba863079497874ea7fdce985b54 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/294.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_557f85fb1d90e9c129bbf766910d1c26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7f3a601d56f91c621a2e14e19c4ec6e = $(`<div id="html_f7f3a601d56f91c621a2e14e19c4ec6e" style="width: 100.0%; height: 100.0%;">Jacksonville</div>`)[0];
+                popup_557f85fb1d90e9c129bbf766910d1c26.setContent(html_f7f3a601d56f91c621a2e14e19c4ec6e);
+            
+        
+
+        marker_bfcb15f5873a069bca0342ae77f77fa4.bindPopup(popup_557f85fb1d90e9c129bbf766910d1c26)
+        ;
+
+        
+    
+    
+                marker_bfcb15f5873a069bca0342ae77f77fa4.setIcon(icon_7d801ba863079497874ea7fdce985b54);
+            
+    
+            var marker_f0390f1338ae15d47589c835279e33fb = L.marker(
+                [35.954, -80.0029],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_1011e52bf5a80d865ca0ec22241281f6 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2272.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_dac1ee61a0708fd414e92d21873b4923 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a60ef5238f20b6d225a3dabca7322a36 = $(`<div id="html_a60ef5238f20b6d225a3dabca7322a36" style="width: 100.0%; height: 100.0%;">High Point</div>`)[0];
+                popup_dac1ee61a0708fd414e92d21873b4923.setContent(html_a60ef5238f20b6d225a3dabca7322a36);
+            
+        
+
+        marker_f0390f1338ae15d47589c835279e33fb.bindPopup(popup_dac1ee61a0708fd414e92d21873b4923)
+        ;
+
+        
+    
+    
+                marker_f0390f1338ae15d47589c835279e33fb.setIcon(icon_1011e52bf5a80d865ca0ec22241281f6);
+            
+    
+            var marker_33a44f425c3fa8837043af8719be077e = L.marker(
+                [42.2509, -71.8074],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_af957cc47eadaf43e9d8ff49e3b47838 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/107.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_ad1afc39dfe41235d129f9e3419b23cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f3f02b5a375dae25dfdbe7f1dd06040 = $(`<div id="html_1f3f02b5a375dae25dfdbe7f1dd06040" style="width: 100.0%; height: 100.0%;">Holy Cross</div>`)[0];
+                popup_ad1afc39dfe41235d129f9e3419b23cf.setContent(html_1f3f02b5a375dae25dfdbe7f1dd06040);
+            
+        
+
+        marker_33a44f425c3fa8837043af8719be077e.bindPopup(popup_ad1afc39dfe41235d129f9e3419b23cf)
+        ;
+
+        
+    
+    
+                marker_33a44f425c3fa8837043af8719be077e.setIcon(icon_af957cc47eadaf43e9d8ff49e3b47838);
+            
+    
+            var marker_67cd0a463b801edce2daf6dbb0da7ded = L.marker(
+                [38.9222, -77.0199],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_44860331a13f4a5477d4c7849e5cb395 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/47.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_1c3f4250dcc0d6aeccf725de2f376709 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_707ba30a42c945edd1a55ef69f9169d5 = $(`<div id="html_707ba30a42c945edd1a55ef69f9169d5" style="width: 100.0%; height: 100.0%;">Howard</div>`)[0];
+                popup_1c3f4250dcc0d6aeccf725de2f376709.setContent(html_707ba30a42c945edd1a55ef69f9169d5);
+            
+        
+
+        marker_67cd0a463b801edce2daf6dbb0da7ded.bindPopup(popup_1c3f4250dcc0d6aeccf725de2f376709)
+        ;
+
+        
+    
+    
+                marker_67cd0a463b801edce2daf6dbb0da7ded.setIcon(icon_44860331a13f4a5477d4c7849e5cb395);
+            
+    
+            var marker_39807cd114babd14b612b3be146377f8 = L.marker(
+                [31.6099, -94.6563],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_7018f63e7c7e66c2d7c280804df1eb79 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2617.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_5c30a14e56d4df1fc993dab55fcd5aee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ff54c6e1c9642795d3445b2910f355a = $(`<div id="html_0ff54c6e1c9642795d3445b2910f355a" style="width: 100.0%; height: 100.0%;">Stephen F. Austin</div>`)[0];
+                popup_5c30a14e56d4df1fc993dab55fcd5aee.setContent(html_0ff54c6e1c9642795d3445b2910f355a);
+            
+        
+
+        marker_39807cd114babd14b612b3be146377f8.bindPopup(popup_5c30a14e56d4df1fc993dab55fcd5aee)
+        ;
+
+        
+    
+    
+                marker_39807cd114babd14b612b3be146377f8.setIcon(icon_7018f63e7c7e66c2d7c280804df1eb79);
+            
+    
+            var marker_41414bc4f0a086ffd7985f6b751c8cbd = L.marker(
+                [30.5261, -91.189],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_c734cbe65d000507d2312016e90d3362 = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2582.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_4d6e0c705401431f7f5e4066e3744866 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e054ae16284dd8a2a3c3ff0395abe68 = $(`<div id="html_5e054ae16284dd8a2a3c3ff0395abe68" style="width: 100.0%; height: 100.0%;">Southern</div>`)[0];
+                popup_4d6e0c705401431f7f5e4066e3744866.setContent(html_5e054ae16284dd8a2a3c3ff0395abe68);
+            
+        
+
+        marker_41414bc4f0a086ffd7985f6b751c8cbd.bindPopup(popup_4d6e0c705401431f7f5e4066e3744866)
+        ;
+
+        
+    
+    
+                marker_41414bc4f0a086ffd7985f6b751c8cbd.setIcon(icon_c734cbe65d000507d2312016e90d3362);
+            
+    
+            var marker_e4ad567fe4cdb7cd93e1bab8873ce9e8 = L.marker(
+                [33.4623, -86.7897],
+                {
+}
+            ).addTo(map_658da723602651d1ee537aa17a276a19);
+        
+    
+        var icon_89b3c4e3fe2b739b2d03f05f8f7c3d6a = L.icon({
+  "iconUrl": "https://a.espncdn.com/i/teamlogos/ncaa/500/2535.png",
+  "iconSize": [20, 20],
+});
+        
+    
+        var popup_bcfa407b1cd73b4e05224843dd412958 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1be4411c9cb15bf27a67d82d5de79c92 = $(`<div id="html_1be4411c9cb15bf27a67d82d5de79c92" style="width: 100.0%; height: 100.0%;">Samford</div>`)[0];
+                popup_bcfa407b1cd73b4e05224843dd412958.setContent(html_1be4411c9cb15bf27a67d82d5de79c92);
+            
+        
+
+        marker_e4ad567fe4cdb7cd93e1bab8873ce9e8.bindPopup(popup_bcfa407b1cd73b4e05224843dd412958)
+        ;
+
+        
+    
+    
+                marker_e4ad567fe4cdb7cd93e1bab8873ce9e8.setIcon(icon_89b3c4e3fe2b739b2d03f05f8f7c3d6a);
+            
+</script>
+</html>
